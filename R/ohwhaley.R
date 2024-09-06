@@ -27,7 +27,7 @@ say <- function(what){
 
   #If what isn't supplied...
   if(missing(what)){
-    what <- phrases %>% sample(size = 1) #See here's the pipe!
+    what <- phrases%>%sample(size = 1) #See here's the pipe!
   }
 
   #Combining positions, message and whale together
